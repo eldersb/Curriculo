@@ -6,7 +6,8 @@
 header {
   grid-area: cabecalho;
   background-color: #00004d;
-  height: 50px;
+  height: 30px;
+  border-bottom: 10px solid #969696;
   color: wheat;
   text-align: center;
   padding: 20px;
@@ -14,31 +15,59 @@ header {
 
 nav {
   grid-area: navegacao;
-  background-color:#00004d;
+  background-color:#969696;
   color: wheat;
   width: 70%;
+  height: 100%;
 }
 
 nav .texto li {
   color: wheat;
 }
 
-main {
-  grid-area: conteudo;
+.minha_foto {
+  width: 100%;
 }
 
-.texto1 {
+.padrao {
+  text-align: center;
+}
+
+.icone {
+  top: 10%;
+  width: 20%;    
+  margin-top: 10px;
+  display: inline-block;
+ 
+}
+
+main {
+  grid-area: conteudo;
+  padding: 40px;
+}
+
+.texto {
   padding: 10px;
 }
+
+.competencias {
+padding-left: 20px;
+}
+
 footer {
   grid-area: rodape;
+  background-color: #00004d;
+  color: wheat;
+  text-align: center;
+  border-bottom: 5px solid #969696;
+  padding: 20px;
 }
 
 body {
   display: grid;
   min-height: 100vh;
   grid-template-columns: 300px 1fr;
-  grid-template-rows: 100px 1fr 100px;
+  grid-template-rows: 80px 1fr 100px;
   grid-template-areas: 
   'cabecalho cabecalho'
   'navegacao conteudo'
