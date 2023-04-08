@@ -5,7 +5,7 @@
 
 header {
   grid-area: cabecalho;
-  background-color: #00004d;
+  background-color: #60594D ;
   height: 30px;
   border-bottom: 10px solid #969696;
   color: wheat;
@@ -13,10 +13,10 @@ header {
   padding: 20px;
 }
 
-<<<<<<< Updated upstream
+
 nav {
   grid-area: navegacao;
-  background-color:#969696;
+  background-color:#B4C5E4;
   color: wheat;
   width: 70%;
   height: 100%;
@@ -76,7 +76,7 @@ body {
   
   ;
 }
-=======
+
   .header {
     background-color: #f1f1f1;
     padding: 30px;
@@ -94,10 +94,10 @@ body {
   }
 
   .footer {
-    background-color: #f1f1f1;
+    background-color: #3066BE;
     padding: 10px;
     text-align: center;
   }
 
   
->>>>>>> Stashed changes
+
