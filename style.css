@@ -5,18 +5,18 @@
 
 header {
   grid-area: cabecalho;
-  background-color: #050824;
+  background-color: #00004d;
   height: 30px;
   border-bottom: 6px solid #d1c1a2;
   color: wheat;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
+
 
 nav {
   grid-area: navegacao;
-  background-color:#050824;
-  border-bottom: 6px solid #d1c1a2;
+  background-color:#969696;
   color: wheat;
   width: 75%;
   height: 99.3%;
@@ -55,7 +55,6 @@ main {
 
 .texto {
   padding: 10px;
-  font-size: 30px;
 }
 
 .competencias, h2 {
@@ -74,8 +73,8 @@ footer {
 body {
   display: grid;
   min-height: 100vh;
-  grid-template-columns: 350px 1fr;
-  grid-template-rows: 75px 1fr 40px;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 80px 1fr 100px;
   grid-template-areas: 
   'cabecalho cabecalho'
   'navegacao conteudo'
@@ -83,3 +82,34 @@ body {
   
   ;
 }
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    background-color: aqua;
+  }
+
+  .titulo {
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px  #000000;
+    text-align: center;
+  }
+
+  .nav1 {
+    width: 15%;
+    float: left;
+    padding: 10px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .footer {
+    background-color: #3066BE;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  
+
