@@ -26,6 +26,10 @@ nav .texto li {
   color: wheat;
 }
 
+h2 {
+  padding: 10px;
+}
+
 .minha_foto {
   width: 100%;
   border-radius: 100%;
@@ -39,10 +43,31 @@ nav .texto li {
   background-color: #d1c1a2;
   top: 10%;
   width: 15%;    
-  margin-top: 10px;
-  display: block;
-  margin-left: 10px;
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: 5px;
 }
+
+button {
+  width: 50%;
+  margin-top: 20%;
+  font: 15px Arial;
+  height: 30px;
+  background-color: rgb(110, 110, 110) ;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+#apresentacao {
+  padding: 15px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 18px;
+  text-align: justify;
+ 
+}
+
 .lado {
   display: inline-block;
 }
@@ -54,13 +79,14 @@ main {
 }
 
 .texto {
-  padding: 10px;
-  font-size: 30px;
+  margin-top: 20px;
+  font-size: 15px;
 }
 
-.competencias, h2 {
+/* .competencias, h2 {
 padding-left: 20px;
-}
+
+} */
 
 footer {
   grid-area: rodape;
@@ -96,6 +122,7 @@ body {
     border: 2px solid black;
     box-shadow: 3px 3px 3px  #000000;
     text-align: center;
+    margin-top: 20px;
   }
 
   .nav1 {
