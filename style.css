@@ -68,9 +68,10 @@ button {
  
 }
 
-.lado {
+/* .lado {
   display: inline-block;
-}
+  
+} */
 
 main {
   grid-area: conteudo;
@@ -81,6 +82,33 @@ main {
 .texto {
   margin-top: 20px;
   font-size: 15px;
+}
+
+.logo {
+  border-radius: 100%;
+  width: 10%;
+  margin-top: 30px;
+}
+
+#html {
+  width: 10%;
+  margin-top: 30px;
+}
+
+.logo2 {
+  width: 10%;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.logo, p {
+  display: inline-block;
+}
+
+#unime {
+  border-radius: 100%;
+  width: 10%;
+  margin-left: 25%;
 }
 
 /* .competencias, h2 {
@@ -139,5 +167,26 @@ body {
     padding-bottom: 10px;
   }
 
-  
+@media (max-width: 900px){
+  .logo{
+    border-radius: 100%;
+    width: 40%;
+  }
 
+  #html {
+    width: 30%;
+    margin-top: 30px;
+
+  }
+
+  .logo2 {
+    width: 30%;
+    margin-top: 30px;
+  }
+
+  #unime {
+    border-radius: 100%;
+    width: 50%;
+    margin-left: 20%;
+  }
+}
